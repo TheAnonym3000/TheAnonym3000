@@ -1,0 +1,36 @@
+name: Generate Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+      - name: Generate snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg?palette=github&color_snake=%23f97316&color_dots=%23ebedf0,%23fed7aa,%23fb923c,%23ea580c,%23f97316&color_background=%230d0800
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=%23f97316&color_dots=%23161b22,%23431407,%237c2d12,%23c2410c,%23f97316&color_background=%230d0800
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Push snake to output branch
+        run: |
+          sudo chown -R $USER:$USER dist
+          cd dist
+          git init
+          git checkout -b output
+          git add .
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: update dev snake animation"
+          git push --force https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git output
