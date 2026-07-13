@@ -8,8 +8,8 @@
 
 ## About Me
 German
-I also speak:
-English
+I also speak: <br>
+English <br>
 Latin
 
 Favourite Color: #FF8000
