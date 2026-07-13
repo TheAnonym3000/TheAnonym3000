@@ -1,6 +1,6 @@
 <div>
   <a href="https://github.com/TheAnonym3000"><img align="right" src="https://img.shields.io/badge/Joined-October%2025,%202024-181717?style=for-the-badge&logo=github&logoColor=white" alt="Joined GitHub" /></a>
-  <h1 align="left">Moin 👋, I'm Anonym3000</h1>
+  <h1 align="left">Moin 👋, I'm TheAnonym3000</h1>
   <h3 align="center">Minecraft & Misc Developer | Open Source Enthusiast</h3>
 </div>
 
