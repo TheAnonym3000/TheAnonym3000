@@ -1,6 +1,6 @@
 <div>
   <a href="https://github.com/TheAnonym3000"><img align="right" src="https://img.shields.io/badge/Joined-Oktober%2025,%202024-181717?style=for-the-badge&logo=github&logoColor=white" alt="Joined GitHub" /></a>
-  <h1 align="left">Moin 👋, I'm TheAnonym3000</h1>
+  <h1 align="left">Hi 👋, I'm TheAnonym3000</h1>
   <h3 align="center">Misc Developer | Open Source Enthusiast</h3>
 </div>
 
@@ -106,17 +106,10 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/TheAnonym3000/TheAnonym3000/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Graph" width="100%" />
 
-  <br><br>
-  <img src="https://metrics.lecoq.io/TheAnonym3000?theme=dark&template=classic&base=header,activity,community,repositories,metadata&base.indepth=false&base.hireable=false&base.skip=false&plugin_isocalendar=false&plugin_calendar=false&v=4" alt="Classic User Account" width="100%" />
-
 </p>
 
 <p align="center">
   <img src="https://github-rs.vercel.app/api/top-langs/?username=TheAnonym3000&layout=donut&custom_title=Top%20Languages%20by%20Commit&bg_color=000000&title_color=ffffff&text_color=8b949e&icon_color=ff0000&border_color=30363d" alt="Top Languages by Commit" width="49%" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=TheAnonym3000&bg_color=000000&color=8b949e&line=ff0000&point=ffffff&hide_border=true" alt="Activity Graph" width="100%" />
 </p>
 
 <p align="center">
